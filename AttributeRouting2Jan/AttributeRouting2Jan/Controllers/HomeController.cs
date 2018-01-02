@@ -10,7 +10,7 @@ namespace AttributeRouting2Jan.Controllers
     {
         // GET: Home
 
-            //Using Attribute routing on Index Action method
+        //Using Attribute routing on Index Action method
         [Route ("Home/{id?}")]
         public ActionResult Index()
         {
